@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Object Base Example</title>
+   </head>
+   <body>
+    <h1>*Object*</h1>
+    <h2>Personal Information</h2>
+    <script>
+        var person = {
+            firstName: 'Vaibhav',
+            lastName: 'Dalvi',
+            fullName : function() {
+                return this.firstName + " " + this.lastName;
+              },
+            id: 036,
+            email: 'Vaibhavdalvi73705@gmail.com',
+            familyMember: 5,
+            Address:'Pangari bk,Tal- Sinnar,Dist-Nashik',
+            }
+            console.log(person);
+            document.write(person.fullName());
+
+    </script>
+
+   </body>
+</html>
